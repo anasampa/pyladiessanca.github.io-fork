@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>PNovo site do PyLadies São Carlos</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <meta name="description" content="Motivação O site original do PyLadies São Carlos foi criado em 2015, e desde então não havia sido atualizado. A ideia desse projeto é atualizar o..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">PyLadies São Carlos</a></h1>
+                <nav><ul>
+                    <li><a href="/category/pyquenique.html">pyquenique</a></li>
+                    <li class="active"><a href="/category/site.html">site</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/pnovo-site-do-pyladies-sao-carlos.html" rel="bookmark"
+           title="Permalink to PNovo site do PyLadies São Carlos">PNovo site do PyLadies São Carlos</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2023-10-22T00:00:00-03:00">
+                Published: Sun 22 October 2023
+        </abbr>
+		<br />
+        <abbr class="modified" title="2023-10-22T18:00:00-03:00">
+                Updated: Sun 22 October 2023
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/juliana-karoline-de-sousa.html">Juliana Karoline de Sousa</a>
+        </address>
+<p>In <a href="/category/site.html">site</a>.</p>
+<p>tags: <a href="/tag/site.html">site</a> </p>
+</footer><!-- /.post-info -->      <h2>Motivação</h2>
+<p>O site original do PyLadies São Carlos foi criado em 2015, e desde então não havia sido atualizado.
+A ideia desse projeto é atualizar o site, tornando-o mais moderno e com uma aparência mais profissional.</p>
+<h2>Tecnologias utilizadas</h2>
+<ul>
+<li><a href="https://getpelican.com/">Pelican</a></li>
+</ul>
+<h2>Como rodar o projeto</h2>
+<ol>
+<li>Clone o repositório</li>
+</ol>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/pyladiessanca/pyladiessanca.github.io.git
+</code></pre></div>
+
+<ol>
+<li>Entre na pasta clonada</li>
+</ol>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>pyladiessanca.github.io
+</code></pre></div>
+
+<ol>
+<li>Crie um ambiente virtual</li>
+</ol>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>python<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>.venv
+</code></pre></div>
+
+<ol>
+<li>Ative o ambiente virtual</li>
+</ol>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span><span class="nb">source</span><span class="w"> </span>.venv/bin/activate
+</code></pre></div>
+
+<ol>
+<li>Instale as dependências</li>
+</ol>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>python<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>.
+</code></pre></div>
+
+<ol>
+<li>Rode o servidor</li>
+</ol>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>pelican<span class="w"> </span>--listen
+</code></pre></div>
+
+<ol>
+<li>Acesse o site em http://localhost:8000</li>
+</ol>
+<p>Caso crie um arquivo, rode o comando <code>pelican content</code> para gerar o HTML e atualizar o site.</p>
+<h2>Como contribuir</h2>
+<ol>
+<li>Faça um fork do repositório</li>
+<li>Crie uma branch para o seu post</li>
+</ol>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>git<span class="w"> </span>checkout<span class="w"> </span>-b<span class="w"> </span>meu-post
+</code></pre></div>
+
+<ol>
+<li>Escreva o seu post utilizando Markdown e coloque-o na pasta <code>content</code>
+Atente-se para utilizar a convenção de nomenclatura <code>AAAA-MM-DD--nome-do-post.md</code></li>
+<li>Coloque no começo do seu arquivo as seguintes informações:</li>
+</ol>
+<div class="highlight"><pre><span></span><code><span class="n">title</span><span class="o">:</span><span class="w"> </span><span class="n">Título</span><span class="w"> </span><span class="k">do</span><span class="w"> </span><span class="n">seu</span><span class="w"> </span><span class="n">post</span>
+<span class="n">description</span><span class="o">:</span><span class="w"> </span><span class="n">Descrição</span><span class="w"> </span><span class="k">do</span><span class="w"> </span><span class="n">seu</span><span class="w"> </span><span class="n">post</span>
+<span class="n">modified</span><span class="o">:</span><span class="w"> </span><span class="n">AAAA</span><span class="o">-</span><span class="n">MM</span><span class="o">-</span><span class="n">DD</span>
+<span class="n">category</span><span class="o">:</span><span class="w"> </span><span class="n">categoria</span>
+<span class="n">tags</span><span class="o">:</span><span class="w"> </span><span class="n">tags</span>
+</code></pre></div>
+
+<ol>
+<li>Faça o commit das suas alterações</li>
+</ol>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s1">&#39;meu post&#39;</span>
+</code></pre></div>
+
+<ol>
+<li>Faça o push para a sua branch</li>
+</ol>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>--set-upstream<span class="w"> </span>meu-post
+</code></pre></div>
+
+<ol>
+<li>Abra um Pull Request no repositório original</li>
+</ol>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="https://getpelican.com/">Pelican</a></li>
+                            <li><a href="https://www.python.org/">Python.org</a></li>
+                            <li><a href="https://palletsprojects.com/p/jinja/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
