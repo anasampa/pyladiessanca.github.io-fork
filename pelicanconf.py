@@ -31,7 +31,7 @@ SUMMARY_MAX_LENGTH = 30
 DEFAULT_PAGINATION = False
 
 MENUITEMS = [
+    ('Blog', './archives.html'),
     ('Sobre', './index.html'),
     ('Parcerias', './parcerias.html'),
-    ('Blog', './archives.html'),
 ]
